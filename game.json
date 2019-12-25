@@ -1,0 +1,36 @@
+{
+	"width": 800,
+	"height": 450,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"Matrix4d": {
+			"type": "script",
+			"path": "script/Matrix4d.js",
+			"global": true
+		},
+		"Triangle": {
+			"type": "script",
+			"path": "script/Triangle.js",
+			"global": true
+		},
+		"Vector3d": {
+			"type": "script",
+			"path": "script/Vector3d.js",
+			"global": true
+		},
+		"Space": {
+			"type": "script",
+			"path": "script/Space.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	}
+}
